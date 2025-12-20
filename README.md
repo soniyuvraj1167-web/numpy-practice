@@ -43,6 +43,28 @@ The second notebook focuses on performing mathematical computations, linear alge
 * **Data Preprocessing:**
     * **Normalization:** Standardizing data by subtracting the mean and dividing by the standard deviation.
 
+### 3. Practice 3: Filtering, Sorting, and Logic
+The third notebook covers advanced data extraction, organization, and conditional logic.
+
+* **Boolean Indexing (Masking):**
+    * Extracting data based on conditions (e.g., values > 5, even numbers).
+    * **Complex Logic:** Combining multiple conditions using AND (`&`), OR (`|`), and NOT (`~`) operators.
+    * Cleaning data by removing `NaN` values using `~np.isnan()`.
+* **Conditional Logic (`np.where`):**
+    * Replacing values based on conditions (e.g., replacing negatives with 0).
+    * Finding indices of elements that satisfy specific criteria.
+    * Converting boolean arrays to binary (0s and 1s).
+* **Sorting & Ordering:**
+    * Sorting arrays in ascending and descending order.
+    * Sorting matrices row-wise (`axis=1`) and column-wise (`axis=0`).
+    * Using `np.argsort` to sort an array based on the values of a specific column.
+    * Finding the top N largest values using `np.partition`.
+* **Advanced Processing:**
+    * Finding unique values and their counts (`np.unique`, `np.unique_counts`).
+    * Finding the value closest to a specific scalar using `abs` and `argmin`.
+    * Handling outliers by replacing values deviating from the mean.
+    * One-hot encoding categories using `np.eye`.
+
 ## 🛠️ Requirements
 * Python 3.x
 * NumPy
